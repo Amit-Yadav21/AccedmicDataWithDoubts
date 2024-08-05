@@ -70,7 +70,7 @@ const Form = () => {
   return (
     <div className="container d-flex align-items-center justify-content-center vh-50 mt-5 mb-5">
       <div className="card p-3 bg">
-        <h1 className="text-center mb-5">Academic Doubts Form</h1>
+        <h1 className="text-center mb-4">Academic Doubts Form</h1>
         <form onSubmit={handleSubmit} className="row mx-auto" noValidate>
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="First_name" className="form-label fw-bold text-dark">
@@ -147,6 +147,7 @@ const Form = () => {
             />
             {errors.Email && <div className="text-danger">{errors.Email}</div>}
           </div>
+          <hr />
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="Doubt1" className="form-label fw-bold text-dark">
               Doubt 1
@@ -217,6 +218,7 @@ const Form = () => {
             ></textarea>
             {errors.Doubt5 && <div className="text-danger">{errors.Doubt5}</div>}
           </div>
+          <hr />
           <div className="form-group col-12 mb-3">
             <div className="form-check">
               <input

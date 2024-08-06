@@ -138,8 +138,9 @@ const Form = () => {
 };
 ```
 **UI design Accedmic form**
-**UI design for MobileView**
+
+- **UI design for MobileView**
 ![UI design Accedmic form for MobileView](./src/Image/MobileView.png)
 
-**UI design for Tablet & Laptop**
+- **UI design for Tablet & Laptop**
 ![UI design Accedmic form for Tablet & Laptop](./src/Image/Tablet&Laptop.png)

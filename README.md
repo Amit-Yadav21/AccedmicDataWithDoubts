@@ -37,6 +37,47 @@ Create an automated system for students to submit academic doubts and receive re
    - Includes form elements for input and validation errors.
    - Displays submission status with loading indicators.
 
+Certainly! Here’s a detailed description of the UI for the **Academic Doubts** project, focusing on a user-friendly interface:
+
+### **UI Design for Academic Doubts Form**
+
+**1. Layout and Structure:**
+   - **Header:**
+     - Title: "Academic Form" prominently displayed at the top center of the page.
+   - **Form Sections:**
+     - **Personal Info Section**
+     - **Doubts Section**
+     - **Submit Button**
+
+**2. Form Components:**
+   - **Personal Information:**
+     - **First Name:** Input field with placeholder "Enter your first name".
+     - **Last Name:** Input field with placeholder "Enter your last name".
+     - **Gender:** Dropdown select with options: Male, Female, Other.
+     - **Phone Number:** Input field with placeholder "123-456-7890".
+     - **Email:** Input field with placeholder "Enter your email address".
+   - **Doubts:**
+     - **Doubt 1 to 5:** Textarea fields for students to enter their doubts, with placeholders indicating optional or required fields.
+   - **Terms and Conditions:**
+     - **Checkbox:** A checkbox to agree to terms and conditions with a label.
+
+**3. Error Handling:**
+   - **Error Messages:** Display validation errors below each relevant input field in red text.
+
+**4. Submit Button:**
+   - **Button Text:** "Send" or "Submitting..." (while the form is being processed).
+   - **Button State:** Disabled when loading to prevent multiple submissions.
+
+**5. Visual Design:**
+   - **Container:** Centered on the page with a responsive design for different screen sizes.
+   - **Form Styling:** 
+     - Use Bootstrap or similar for consistent styling.
+     - Background color and card styling to make the form visually appealing.
+     - Spacing and margins to ensure elements are well-separated and readable.
+
+**6. Responsive Design:**
+   - Ensure that the form adjusts gracefully to different screen sizes, especially for mobile devices.
+
 **Example Code Snippet:**
 
 ```jsx

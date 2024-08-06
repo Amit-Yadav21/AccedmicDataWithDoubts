@@ -3,6 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "./Form.css";
 import validate from '../validation/Validate.jsx'
+import HorizontalLine from '../Horizontalline/HorizontalLine.jsx'
 
 const Form = () => {
   const [loading, setLoading] = useState(false);
@@ -18,7 +19,7 @@ const Form = () => {
     Doubt4: "",
     Doubt5: ""
   });
-  
+
   const [errors, setErrors] = useState({});
 
   const handleInputChange = (e) => {
@@ -34,7 +35,7 @@ const Form = () => {
     e.preventDefault();
     const newErrors = validate(formData); // Validate the form data
     setErrors(newErrors);
-    
+
     if (Object.keys(newErrors).length === 0) {
       setLoading(true);
       try {
@@ -70,9 +71,11 @@ const Form = () => {
   return (
     <div className="container d-flex align-items-center justify-content-center vh-50 mt-5 mb-5">
       <div className="card p-3 bg">
-        <h1 className="text-center mb-4">Academic Form</h1>
+        <h1 className="text-center">Academic Form</h1>
+        <HorizontalLine />
         <form onSubmit={handleSubmit} className="row mx-auto" noValidate>
-          <h4 className="text-center">Personal Info</h4>
+          <HorizontalLine />
+          <h4 className="text-center mt-3">Personal Info</h4>
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="First_name" className="form-label fw-bold text-dark">
               First name
@@ -148,7 +151,6 @@ const Form = () => {
             />
             {errors.Email && <div className="text-danger">{errors.Email}</div>}
           </div>
-          <hr />
           <h4 className="text-center">Doubts</h4>
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="Doubt1" className="form-label fw-bold text-dark">
@@ -220,7 +222,6 @@ const Form = () => {
             ></textarea>
             {errors.Doubt5 && <div className="text-danger">{errors.Doubt5}</div>}
           </div>
-          <hr />
           <div className="form-group col-12 mb-3">
             <div className="form-check">
               <input

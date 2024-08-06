@@ -5,7 +5,6 @@
 
 input {
     background-color: #F7F7F7;
-    border: 1px solid #CCC;
     font-size: 16px;
 }
 
@@ -15,4 +14,11 @@ input {
 
 .bg {
     background-color: white;
+    border-radius: 100%;
+}
+
+@media (max-width: 425px){
+    .bg {
+        border-radius: 0 !important;
+    }
 }

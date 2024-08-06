@@ -138,4 +138,4 @@ const Form = () => {
 };
 ```
 **UI design Accedmic form**
-![UI design Accedmic form](./src/Image/Academic%20Doubts%20Form.png)
+![UI design Accedmic form](./src/Image/Academic%20Doubts%20Form1.png)

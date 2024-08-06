@@ -137,5 +137,8 @@ const Form = () => {
   );
 };
 ```
-**UI design Accedmic form**
-![UI design Accedmic form](./src/Image/Academic%20Doubts%20Form1.png)
+**UI design Accedmic form for MobileView**
+![UI design Accedmic form for MobileView](./src/Image/MobileView.png)
+
+**UI design Accedmic form for Tablet & Laptop**
+![UI design Accedmic form for Tablet & Laptop](./src/Image/Tablet&Laptop.png)

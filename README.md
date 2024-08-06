@@ -78,9 +78,6 @@ Certainly! Here’s a detailed description of the UI for the **Academic Doubts**
 **6. Responsive Design:**
    - Ensure that the form adjusts gracefully to different screen sizes, especially for mobile devices.
 
-**UI design Accedmic form**
-![UI design Accedmic form](./src/Image/Academic%20Doubts%20Form.png)
-
 **Example Code Snippet:**
 
 ```jsx
@@ -142,3 +139,5 @@ const Form = () => {
   );
 };
 ```
+**UI design Accedmic form**
+![UI design Accedmic form](./src/Image/Academic%20Doubts%20Form.png)

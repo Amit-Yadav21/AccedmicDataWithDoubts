@@ -37,8 +37,6 @@ Create an automated system for students to submit academic doubts and receive re
    - Includes form elements for input and validation errors.
    - Displays submission status with loading indicators.
 
-Certainly! Here’s a detailed description of the UI for the **Academic Doubts** project, focusing on a user-friendly interface:
-
 ### **UI Design for Academic Doubts Form**
 
 **1. Layout and Structure:**

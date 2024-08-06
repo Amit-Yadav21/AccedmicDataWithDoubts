@@ -142,3 +142,10 @@ const Form = () => {
 
 **UI design Accedmic form for Tablet & Laptop**
 ![UI design Accedmic form for Tablet & Laptop](./src/Image/Tablet&Laptop.png)
+
+## UI Design for Academic Form
+
+<p float="left">
+  <img src="./src/Image/MobileView.png" width="45%" />
+  <img src="./src/Image/Tablet&Laptop.png" width="45%" />
+</p>

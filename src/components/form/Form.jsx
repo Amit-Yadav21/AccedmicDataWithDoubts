@@ -61,7 +61,7 @@ const Form = () => {
         setErrors({});
       } catch (error) {
         console.error("Error details:", error.message);
-        toast.error("Error submitting form");
+        // toast.error("Error submitting form");
       } finally {
         setLoading(false);
       }
